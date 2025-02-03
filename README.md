@@ -17,10 +17,10 @@
 Для работы вам понадобится любой современный браузер и актуальная версия [Docker](https://www.docker.com/).
 
 ### Запуск
-x. Скачайте репозиторий [vscode-xp-workspace](https://github.com/maniaque/vscode-xp-workspace).  
+1. Скачайте репозиторий [vscode-xp-workspace](https://github.com/maniaque/vscode-xp-workspace).  
 Например, через git: `git clone https://github.com/maniaque/vscode-xp-workspace.git`
-x. В командной оболочке перейдите в папку `vscode-xp-workspace`
-x. Выполните команду `docker-compose up -d`.
-x. Откройте в браузере ссылку [http://localhost:3503/](http://localhost:3503/). Вас попросят ввести пароль.
-x. Пароль: 12345
-x. Окружение готово к работе, успехов в исследованиях! 
+2. В командной оболочке перейдите в папку `vscode-xp-workspace`
+3. Выполните команду `docker-compose up -d`.
+4. Откройте в браузере ссылку [http://localhost:3503/](http://localhost:3503/). Вас попросят ввести пароль.
+5. Пароль: 12345
+6. Окружение готово к работе, успехов в исследованиях! 
