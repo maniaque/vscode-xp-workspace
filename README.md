@@ -18,12 +18,10 @@
 Для работы вам понадобится любой современный браузер и актуальная версия [Docker](https://www.docker.com/).
 
 ### Запуск
-1. Скачайте репозиторий [vscode-xp-workspace](https://github.com/Security-Experts-Community/vscode-xp-workspace).  
-Например, через git: `git clone git@github.com:Security-Experts-Community/vscode-xp-workspace.git`
-2. В командной оболочке перейдите в папку `vscode-xp-workspace`
-3. Выполните команду `docker compose up`.
-4. Дождитесь окончания запуска окружения, когда появится надпись ` HTTP server listening on http://0.0.0.0:8080/`
-5. Откройте в браузере ссылку http://localhost:3503/?folder=/home/coder/open-xp-rules. Вас попросят ввести пароль.
-6. Для получения пароля выполните команду:
-`docker exec vscode-xp-workspace grep 'password:' /home/coder/.config/code-server/config.yaml`
-7. Окружение готово к работе, успехов в исследованиях! 
+x. Скачайте репозиторий [vscode-xp-workspace](https://github.com/maniaque/vscode-xp-workspace).  
+Например, через git: `git clone https://github.com/maniaque/vscode-xp-workspace.git`
+x. В командной оболочке перейдите в папку `vscode-xp-workspace`
+x. Выполните команду `docker-compose up -d`.
+x. Откройте в браузере ссылку [http://localhost:3503/](http://localhost:3503/). Вас попросят ввести пароль.
+x. Пароль: 12345
+x. Окружение готово к работе, успехов в исследованиях! 
