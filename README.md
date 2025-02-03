@@ -1,5 +1,4 @@
-# XP Workspace [![Docker Pulls](https://img.shields.io/docker/pulls/aw350m3/vscode-xp-workspace?color=g&style=plastic)](https://hub.docker.com/r/aw350m3/vscode-xp-workspace) [![Latest Version](https://img.shields.io/docker/v/aw350m3/vscode-xp-workspace?color=g&style=plastic)](https://hub.docker.com/r/aw350m3/vscode-xp-workspace/tags?page=1&name=latest)
-
+# XP Workspace 
 
 Данный проект помогает автоматизировать развёртывание рабочего окружения для написания правил на языке XP.
 
