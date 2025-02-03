@@ -1,8 +1,8 @@
 # VSCode XP Web: VSCode XP Web Environment Dockerfile
-# Author: Anton Kutepov (@aw350m33d)
+# Author: Anton Kutepov (@aw350m33d), Leo Nikolaev (@maniaque)
 # License: MIT
 
-FROM --platform=linux/amd64 codercom/code-server:4.13.0-debian
+FROM codercom/code-server:4.96.4-debian
 
 LABEL maintainer="Anton Kutepov (@aw350m33d)"
 LABEL description="Dockerfile for XP web workspace."
@@ -19,12 +19,9 @@ WORKDIR ${HOME}
 RUN sudo apt-get update && \
     sudo apt-get install -y \
         curl \
-        python3 \
-        python3-pip \
         git \
         unzip \
         wget && \
-    pip3 install --upgrade pip && \
     wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && \
     sudo dpkg -i packages-microsoft-prod.deb && \
     rm packages-microsoft-prod.deb && \
